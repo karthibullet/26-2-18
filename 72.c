@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-  int main()
+  void main()
   {
   char s[20]="hhh";int flag=0,i;
   for(i=0;i<=10;i++)
