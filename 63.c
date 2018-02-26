@@ -1,16 +1,17 @@
+
 #include <stdio.h>
-#include <conio.h>
-void main()
+#include<string.h>
+
+int main()
 {
-char a[100];
-int length,i,word=1;
-printf("enter the string");
-gets(a);
-length=strlength(a);
-for(i=0;i<length;i++)
-{
-if(a[i]!=' ' && a[i+1]==' ')
-word=word+1;
-}
-printf("%d",word);
-}	
+	char s[15]="hello world";
+	int i,count=0;
+	for(i=0;i<15;i++)
+	{
+		if(s[i]==' ')
+		count++;
+		
+	}
+	
+	printf("No of words is %d",count+1);
+	return 0;
